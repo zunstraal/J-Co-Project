@@ -1,5 +1,5 @@
 # Test dataset
-All datasets are _CC-By licensed_ and  have been downloaded on the 16.06.2020 from the [Milan Municipality Open-Data Portal(https://dati.comune.milano.it/)
+All datasets are _CC-By licensed_ and  have been downloaded on the 16.06.2020 from the [Milan Municipality Open-Data Portal](https://dati.comune.milano.it/)
 
 Code	|	Description	|	Records	|	Link	|
 ----------	|	----------	|	----------	|	----------	|
