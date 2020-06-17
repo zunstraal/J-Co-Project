@@ -4,8 +4,8 @@ All datasets are _CC-By licensed_ and  have been downloaded on the 16.06.2020 fr
 Code	|	Description	|	Records	|	Link	|
 ----------	|	----------	|	----------	|	----------	|
 ds32	|	Swimming pools	|	28	| [click here](	https://dati.comune.milano.it/dataset/ds32-infogeo-centribalneari-localizzazione	)|
-ds342	|	Parking	|	nd	| [click here](	https://dati.comune.milano.it/dataset/ds342-trafficotrasporti-parcheggi-pubblici-localizzazione	)|
-ds51	|	Restriced Areas	|	180	| [click here](	https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl	)|
+ds342	|	Car Parking	|	nd	| [click here](	https://dati.comune.milano.it/dataset/ds342-trafficotrasporti-parcheggi-pubblici-localizzazione	)|
+ds51	|	Pedestrian and Restriced Areas	|	180	| [click here](	https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl	)|
 ds52	|	Dog's parks	|	nd	| [click here](	https://dati.comune.milano.it/dataset/ds52_infogeo_aree_cani_localizzazione_	)|
 ds532	|	Bus stop sequence	|	4117	| [click here](	https://dati.comune.milano.it/dataset/ds532-atm-composizione-percorsi-linee-di-superficie-urbane	)|
 ds533	|	Metro sequence	|	790	| [click here](	https://dati.comune.milano.it/dataset/ds533_atm-composizione-percorsi-linee-metropolitane	)|
