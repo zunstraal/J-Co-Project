@@ -7,7 +7,6 @@ ds32	|	Swimming pools	|	28	| [click here](	https://dati.comune.milano.it/dataset
 ds342	|	Parking	|	na	| [click here](	https://dati.comune.milano.it/dataset/ds342-trafficotrasporti-parcheggi-pubblici-localizzazione	)|
 ds51	|	Restriced Areas	|	180	| [click here](	https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl	)|
 ds52	|	Dog's parks	|	na	| [click here](	https://dati.comune.milano.it/dataset/ds52_infogeo_aree_cani_localizzazione_	)|
-ds522	|	Green Areas	|	12	| [click here](	https://dati.comune.milano.it/dataset/ds522_verde-urbano-aree-naturali-ville-parchi-e-giardini-2011-2016	)|
 ds532	|	Bus stop sequence	|	4117	| [click here](	https://dati.comune.milano.it/dataset/ds532-atm-composizione-percorsi-linee-di-superficie-urbane	)|
 ds533	|	Metro sequence	|	790	| [click here](	https://dati.comune.milano.it/dataset/ds533_atm-composizione-percorsi-linee-metropolitane	)|
 ds534	|	Bus stops	|	2618	| [click here](	https://dati.comune.milano.it/dataset/ds534-atm-fermate-linee-di-superficie-urbane	)|
