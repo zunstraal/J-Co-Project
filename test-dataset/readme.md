@@ -24,6 +24,6 @@ ds70	|	Public bike docking stations	|	1522	|	16.06.2020	|	CC-By	| [click here](	
 ds710	|	Radio Antennas	|	78	|	08.07.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds710-ripetitori-radiofonici	)|
 ds80	|	Train stations	|	na	|	16.06.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds80_infogeo_stazioni_ferroviarie_localizzazione_	)|
 ds81	|	Urban-train network	|	na	|	16.06.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds81_infogeo_rete_ferroviaria_localizzazione_	)|
-ds82	|	Restriced Areas gates	|	42	|	08.07.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds82_infogeo_varchi_elettronici_localizzazione_/resource/d0283c73-135a-4077-b66b-1e2d5479aecd	)|
+ds82	|	Restricted Areas gates	|	42	|	08.07.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds82_infogeo_varchi_elettronici_localizzazione_/resource/d0283c73-135a-4077-b66b-1e2d5479aecd	)|
 ds89	|	CityParks	|	na	|	16.06.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds89_infogeo_parchi_giardini_localizzazione_	)|
 ds964	|	City Districts	|	88	|	16.06.2020	|	CC-By	| [click here](	https://dati.comune.milano.it/dataset/ds964-nil-vigenti-pgt-2030	)|
