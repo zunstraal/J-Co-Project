@@ -1,8 +1,17 @@
 # JCo-Project
-The _J-Co_ Project...
+The _J-Co_ Project
+
+## Latest New
+  * _31.05.2021_ : Last software update available is from 02 October 2020. A new release will be soon distribuited after some major changement.
+
+For any information contact the authors at:
+  * Paolo Fosci : paolo.fosci@unibg.it
+  * Giuseppe Psaila : giuseppe.psaila@unibg.it
+
 
 ## Presentation
 ..
+
 
 ## Structure of the content
 The content of this repository is organized in 3 folder:
