@@ -28,7 +28,7 @@ collectionReference
     ( AT ID )? 	
     ( AS ID )?
   ;
-  
+   
 
 fieldRef 
   : 
