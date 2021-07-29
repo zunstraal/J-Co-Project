@@ -7,23 +7,23 @@ and a [Syntax Diagrams](https://en.wikipedia.org/wiki/Syntax_diagram).
 
 A J-Co language script is a list of the following Jco commands.\
 **Basic commands**
-* [useDb](useDb.md)
-* [getCollection](getCollection.d) 
-* [getDictionary](getDictionary.md) 							
-* [saveAs](saveAs.md)  
+* [Use DB](useDb.md)
+* [Get Collection](getCollection.d) 
+* [Get Dictionary](getDictionary.md) 							
+* [Save As](saveAs.md)  
 
-**Definitions commands**
-*	[createFuzzyOperator](createFuzzyOperator.md)
-* [createJavaScriptFunction](createJavaScriptFunction.md)
+**Definition commands**
+*	[Create Fuzzy Operator](createFuzzyOperator.md)
+* [Create JavaScript Function](createJavaScriptFunction.md)
 
 **Transformation commands**
-* [filter](filter.md)  
-* [group](group.md)
-* [expand](expand.md)  
+* [Filter](filter.md)  
+* [Group](group.md)
+* [Expand](expand.md)  
 
 **Associative commands**
-* [joinOfCollection](joinOfCollection.md)
-* [mergeCollections](mergeCollections.md) 
+* [Join Of Collections](joinOfCollections.md)
+* [Merge Collections](mergeCollections.md) 
 * [intersectCollections](intersectCollections.md)
 * [subtractCollections](subtractCollections.md) 
 
