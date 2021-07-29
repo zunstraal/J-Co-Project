@@ -8,7 +8,7 @@ and a [Syntax Diagrams](https://en.wikipedia.org/wiki/Syntax_diagram).
 A J-Co language script is a list of the following Jco commands.
 | Commands | Description |
 | -------- | ----------- | 
-| **Basic commands ** | |
+| **Basic commands** | |
 | [Use DB](/langaugeSpecification/useDb.md) |     |
 | [Get Collection](/langaugeSpecification/getCollection.d) |     | 
 | [Get Dictionary](/langaugeSpecification/getDictionary.md) |     | 							
