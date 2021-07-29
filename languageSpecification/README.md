@@ -5,28 +5,30 @@ The following specification describes the syntax and semantics of the J-Co langa
 using both [EBNF Notation](https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form) 
 and a [Syntax Diagrams](https://en.wikipedia.org/wiki/Syntax_diagram). 
 
-A J-Co language script is a list of the following Jco commands.\
-**Basic commands**
-* [Use DB](useDb.md)
-* [Get Collection](getCollection.d) 
-* [Get Dictionary](getDictionary.md) 							
-* [Save As](saveAs.md)  
+A J-Co language script is a list of the following Jco commands.
+| Commands | Description |
+| -------- | ----------- | 
+| **Basic commands ** | |
+| [Use DB](/langaugeSpecification/useDb.md) |     |
+| [Get Collection](/langaugeSpecification/getCollection.d) |     | 
+| [Get Dictionary](/langaugeSpecification/getDictionary.md) |     | 							
+| [Save As](/langaugeSpecification/saveAs.md) |     |  
 
-**Definition commands**
-*	[Create Fuzzy Operator](createFuzzyOperator.md)
-* [Create JavaScript Function](createJavaScriptFunction.md)
+| **Definition commands** | |
+*	[Create Fuzzy Operator](/langaugeSpecification/createFuzzyOperator.md) |     |
+| [Create JavaScript Function](/langaugeSpecification/createJavaScriptFunction.md) |     |
 
-**Transformation commands**
-* [Filter](filter.md)  
-* [Group](group.md)
-* [Expand](expand.md)  
+| **Transformation commands** | |
+| [Filter](/langaugeSpecification/filter.md) |     |  
+| [Group](/langaugeSpecification/group.md) |     |
+| [Expand](/langaugeSpecification/expand.md) |     |  
 
-**Associative commands**
-* [Join Of Collections](joinOfCollections.md)
-* [Merge Collections](mergeCollections.md) 
-* [intersectCollections](intersectCollections.md)
-* [subtractCollections](subtractCollections.md) 
+| **Associative commands** | | 
+| [Join Of Collections](/langaugeSpecification/joinOfCollections.md) |     |
+| [Merge Collections](/langaugeSpecification/mergeCollections.md) |     | 
+| [intersectCollections](/langaugeSpecification/intersectCollections.md) |     |
+| [subtractCollections](/langaugeSpecification/subtractCollections.md) |     | 
 
-**Spatial commands**
-* [spatialJoin](spatialJoin.md)
-* [trajectoryMatching](trajectoryMatching.md)  
+| **Spatial commands** ||
+| [spatialJoin](/langaugeSpecification/spatialJoin.md) |     |
+| [trajectoryMatching](/langaugeSpecification/trajectoryMatching.md) |     |  
