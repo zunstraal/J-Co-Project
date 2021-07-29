@@ -2,22 +2,18 @@ grammar GecoNonDecorato;
 
 start 
   : ( useDb                     // 12
-		| getCollection             // 1 
-    | getDictionary							// 16
-//    | setIntermediateAs         // 2 
+    | getCollection             // 1 
+    | getDictionary		// 16
     | saveAs                    // 3 
     | filter                    // 6 
     | group                     // 7 
     | expand                    // 8 
-
     | joinOfCollections         // 5 
     | mergeCollections          // 9 
     | intersectCollections      // 10
     | subtractCollections       // 11
-
-    |	createFuzzyOperator				// 14
+    | createFuzzyOperator	// 14
     | createJavaScriptFunction	// 15
-
     | spatialJoin               // 4 	
     | trajectoryMatching        // 13
     )* EOF
@@ -33,7 +29,6 @@ collectionReference
     ( AS ID )?
   ;
   
-// $<Group1
 
 fieldRef 
   : 
@@ -43,12 +38,12 @@ fieldRef
 
 value 
   : 
-  		INT           
-		| FLOAT         
-	  | APEX_VALUE    
-	  | QUOTED_VALUE  
-	  | BOOLEAN       
-	;
+	  INT           
+	| FLOAT         
+	| APEX_VALUE    
+	| QUOTED_VALUE  
+	| BOOLEAN       
+  ;
   
 
 outputFieldSpec 
