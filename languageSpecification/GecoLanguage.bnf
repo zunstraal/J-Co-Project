@@ -273,7 +273,6 @@ setKeepDropFuzzySets
 
 
 
-// aggiunto il 09.07.2021		
 setFuzzySets 
 	:	
 		SET FUZZY SETS 
