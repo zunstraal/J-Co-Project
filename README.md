@@ -1,5 +1,5 @@
 # JCo-Project
-The _J-CO-Framework_ is the result of a research work conducted at University of Bergamo, towards the definition of a tool able to retrieve, integrateand query possibly large collections of JSON documents either stored in JSON document stores or directly provided by Web sources.
+The _J-CO-Framework_ is the result of a research work conducted at University of Bergamo, towards the definition of a tool able to retrieve, integrate and query possibly large collections of JSON documents either stored in JSON document stores or directly provided by Web sources.
 The core of the framework is _J-CO-QL_, a novel query language specifically designed to query heterogeneous JSON data sets, by natively supporting geo-spatial aggregations of geo-tagged documents.
 
 ## Latest New
