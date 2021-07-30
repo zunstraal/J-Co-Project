@@ -1,3 +1,8 @@
 ## Use Db Command
 
-![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram")
+|XXXX|YYYYY|
+|Description| |
+|EBNF Notation  | |
+|Syntax Diagram |  ![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") |
+|Examples| |
+
