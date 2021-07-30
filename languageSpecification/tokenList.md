@@ -122,6 +122,34 @@
 | INT	| [ '0' \| DIGIT0 DIGIT* ] |
 | FLOAT     | [DIGIT0 DIGIT* DOT DIGIT+ \| '0' DOT DIGIT+] | 
 | ID	| LETTER [ LETTER \| DIGIT \| '\_' ]* |
-| FIELD_NAME		| [ DOT [LETTER \| DIGIT \| '\_']+ ) \ \| DOT '"' (~('"') )* '"' \| DOT '~geometry'  \| DOT '~fuzzysets'  \| '~geometry'] |
-
-
+| FIELD_NAME		| [ DOT [LETTER \| DIGIT \| '\_']+ )  \| DOT '"' (~('"') )* '"' \| DOT '~geometry'  \| DOT '~fuzzysets'  \| '~geometry'] |
+| **Puntuaction** | |
+| AT    | '@' |
+| EQ    | '=' |
+| NEQ   | '!=' |
+| LE    | '<=' |
+| GE    | '>=' |
+| LT    | '<' |
+| GT    | '>' |
+| DOT   | '.' |
+| ADD   | '+' |
+| SUB   | '-' |
+| MUL   | '\*' |
+| DIV   | '\\' |
+| COMMA | ',' |
+| COLON | ':' |
+| SC    | ';' |
+| LP    | '(' |
+| RP    |	')' |
+| LB    | '\[' |
+| RB    | ']' |
+| LBR   | '{' |
+| RBR   | '}' |
+| APEX  | '\'' |
+| QUOTE | '"' |
+| SLASH | '/' |
+| TILDE | '~' |
+| WHITE_SPACES | WS | 
+| APEX_VALUE |  '\'' (~('\'') )* '\'' |
+| QUOTED_VALUE |  '"' (~('"') )* '"' |
+| COMMENT  |   '//' ~('\n' |'\r')* '\r'? '\n'  \|   '/*' ( . )* '\*/' |
