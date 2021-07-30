@@ -150,7 +150,7 @@
 | SLASH | '/' |
 | TILDE | '~' |
 | WHITE_SPACES | WS | 
-| APEX_VALUE |  APEX (~(APEX) )* APEX |
-| QUOTED_VALUE |  QUOTE (~(QUOTE) )* QUOTE |
-| COMMENT  |   '//' <whatever in Java style> |
-| COMMENT  |   '/*' <whatever in Java style> '\*/' |
+| APEX_VALUE |  APEX \[~APEX) \]* APEX |
+| QUOTED_VALUE |  QUOTE \[~QUOTE \]* QUOTE |
+| COMMENT  |   '//' 'whatever in Java style' |
+| COMMENT  |   '/*' 'whatever in Java style' '\*/' |
