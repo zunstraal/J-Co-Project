@@ -7,7 +7,7 @@
         		( COMMA DB (ID | APEX_VALUE) (AS (ID | APEX_VALUE))? )*
 		    ON ( DEFAULT SERVER 
 		       | SERVER (ID | APEX_VALUE) ( (ID | APEX_VALUE))? )
-		SC
+		    SC
   
 
 
