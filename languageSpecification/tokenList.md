@@ -150,6 +150,6 @@
 | SLASH | '/' |
 | TILDE | '~' |
 | WHITE_SPACES | WS | 
-| APEX_VALUE |  '\'' (~('\'') )* '\'' |
-| QUOTED_VALUE |  '"' (~('"') )* '"' |
-| COMMENT  |   '//' ~('\n' |'\r')* '\r'? '\n'  \|   '/*' ( . )* '\*/' |
+| APEX_VALUE |  APEX (~(APEX) )* APEX |
+| QUOTED_VALUE |  QUOTE (~(QUOTE) )* QUOTE |
+| COMMENT  |   '//' ~('\n' \|'\r')* '\r'? '\n'  \|   '/*' ( . )* '\*/' |
