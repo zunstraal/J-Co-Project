@@ -119,7 +119,7 @@
 | WITHOUT       | 'WITHOUT' |
 | WRT           | 'WRT' |
 |           |         |
-| INT	| [ '0' | DIGIT0 DIGIT* ] |
+| INT	| [ '0' \| DIGIT0 DIGIT* ] |
 | FLOAT     | [DIGIT0 DIGIT* DOT DIGIT+ \| '0' DOT DIGIT+] | 
 | ID	| LETTER [ LETTER \| DIGIT \| '\_' ]* |
 | FIELD_NAME		| [ DOT [LETTER \| DIGIT \| '\_']+ ) \ \| DOT '"' (~('"') )* '"' \| DOT '~geometry'  \| DOT '~fuzzysets'  \| '~geometry'] |
