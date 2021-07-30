@@ -3,10 +3,10 @@
 | Token | Definition |
 | ----- | ---------- | 
 | **Macro** | |
-| LETTER | ['A'..'Z' \| 'a'..'z'] |
-| DIGIT0 | ['1'..'9'] |
-| DIGIT  | ['0'..'9'] |
-| WS |   [ ' '  \|  '\t'  \|  '\r'  \|  '\n'  ]+  |
+| LETTER | \['A'..'Z' \| 'a'..'z'\] |
+| DIGIT0 | \['1'..'9'\] |
+| DIGIT  | \['0'..'9'\] |
+| WS |   \[ ' '  \|  '\t'  \|  '\r'  \|  '\n'  \]+  |
 | **Boolean Operators** | | 
 | AND | 'AND' |
 | OR  | 'OR' |
@@ -76,7 +76,7 @@
 | ON            | 'ON' |
 | ORIENTATION   | 'ORIENTATION' |
 | OTHERS        | 'OTHERS' |
-| ORDER		  		| ['ORDER' \| 'SORTED'] |
+| ORDER		  		| \['ORDER' \| 'SORTED'\] |
 | OVERLAP				|	'OVERLAP' |
 | PARAMETERS		|	'PARAMETERS' |
 | PARTITION     | 'PARTITION' |
@@ -111,7 +111,7 @@
 | UNPACK        | 'UNPACK' |
 | USE           | 'USE' |
 | USING         | 'USING' |
-| VERSUS        | [ 'DESC' \| 'ASC' ] |
+| VERSUS        | \[ 'DESC' \| 'ASC' \] |
 | WEB	| 'WEB' |
 | WHERE         | 'WHERE' |
 | WITH          | 'WITH' |
@@ -119,10 +119,10 @@
 | WITHOUT       | 'WITHOUT' |
 | WRT           | 'WRT' |
 |           |         |
-| INT	| [ '0' \| DIGIT0 DIGIT* ] |
-| FLOAT     | [DIGIT0 DIGIT* DOT DIGIT+ \| '0' DOT DIGIT+] | 
-| ID	| LETTER [ LETTER \| DIGIT \| '\_' ]* |
-| FIELD_NAME		| [ DOT [LETTER \| DIGIT \| '\_']+ )  \| DOT '"' (~('"') )* '"' \| DOT '~geometry'  \| DOT '~fuzzysets'  \| '~geometry'] |
+| INT	| \[ '0' \| DIGIT0 DIGIT* ] |
+| FLOAT     | \[DIGIT0 DIGIT* DOT DIGIT+ \| '0' DOT DIGIT+] | 
+| ID	| LETTER \[ LETTER \| DIGIT \| '\_' \]* |
+| FIELD_NAME		| \[ DOT \[LETTER \| DIGIT \| '\_']+ )  \| DOT '"' (~('"') )* '"' \| DOT '~geometry'  \| DOT '~fuzzysets'  \| '~geometry'] |
 | **Puntuaction** | |
 | AT    | '@' |
 | EQ    | '=' |
@@ -152,5 +152,5 @@
 | WHITE_SPACES | WS | 
 | APEX_VALUE |  APEX \[~APEX) \]* APEX |
 | QUOTED_VALUE |  QUOTE \[~QUOTE \]* QUOTE |
-| COMMENT  |   '//' 'whatever in Java style' |
-| COMMENT  |   '/*' 'whatever in Java style' '\*/' |
+| COMMENT  |   '//' _whatever in Java style_ |
+| COMMENT  |   '/*' _whatever in Java style_ '\*/' |
