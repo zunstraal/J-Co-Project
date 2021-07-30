@@ -9,25 +9,25 @@ A J-Co language script is a list of the following Jco commands.
 | Commands | Description |
 | -------- | ----------- | 
 | **Basic commands** | |
-| [Use DB](/langaugeSpecification/useDb.md) | Allows to specify what no-SQL repository(ies) to use to get or save collections of documents   |
-| [Get Collection](/langaugeSpecification/getCollection.md) | Retrieves a collection of documents from a repository or from the Internet   | 
-| [Get Dictionary](/langaugeSpecification/getDictionary.md) | Retrieves a dictionary from a repository in order to perfom the **Translate** function (see [GenerateAction](/langaugeSpecification/generateAction.md)   | 							
-| [Save As](/langaugeSpecification/saveAs.md) | Saves a collection of documents in a repository    |  
+| [Use DB](/languageSpecification//useDb.md) | Allows to specify what no-SQL repository(ies) to use to get or save collections of documents   |
+| [Get Collection](/languageSpecification/getCollection.md) | Retrieves a collection of documents from a repository or from the Internet   | 
+| [Get Dictionary](/languageSpecification/getDictionary.md) | Retrieves a dictionary from a repository in order to perfom the **Translate** function (see [GenerateAction](/languageSpecification/generateAction.md)   | 							
+| [Save As](/languageSpecification/saveAs.md) | Saves a collection of documents in a repository    |  
 | **Definition commands** | |
-|	[Create Fuzzy Operator](/langaugeSpecification/createFuzzyOperator.md) | Allows to define a **Fuzzy Operator**    |
-| [Create JavaScript Function](/langaugeSpecification/createJavaScriptFunction.md) |  Allows to include a **Javascript function script**    |
+|	[Create Fuzzy Operator](/languageSpecification/createFuzzyOperator.md) | Allows to define a **Fuzzy Operator**    |
+| [Create JavaScript Function](/languageSpecification/createJavaScriptFunction.md) |  Allows to include a **Javascript function script**    |
 | **Transformation commands** | |
-| [Filter](/langaugeSpecification/filter.md) | Filters and transforms documents in the current collection |  
-| [Group](/langaugeSpecification/group.md) |   Groups documents in the current collection    |
-| [Expand](/langaugeSpecification/expand.md) |  Expands documents with array fields in the current collection       |  
+| [Filter](/languageSpecification/filter.md) | Filters and transforms documents in the current collection |  
+| [Group](/languageSpecification/group.md) |   Groups documents in the current collection    |
+| [Expand](/languageSpecification/expand.md) |  Expands documents with array fields in the current collection       |  
 | **Associative commands** | | 
-| [Join Of Collections](/langaugeSpecification/joinOfCollections.md) |  Joins two collections of documents in order to create a new one   |
-| [Merge Collections](/langaugeSpecification/mergeCollections.md) | Merges two or more collections into a single one    | 
-| [Intersect Collections](/langaugeSpecification/intersectCollections.md) | Creates a new collection as the set intersection of two collections   |
-| [Subtract Collections](/langaugeSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
+| [Join Of Collections](/languageSpecification/joinOfCollections.md) |  Joins two collections of documents in order to create a new one   |
+| [Merge Collections](/languageSpecification/mergeCollections.md) | Merges two or more collections into a single one    | 
+| [Intersect Collections](/languageSpecification/intersectCollections.md) | Creates a new collection as the set intersection of two collections   |
+| [Subtract Collections](/languageSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
 | **Spatial commands** ||
-| [Spatial Join Of Collections](/langaugeSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
-| [Trajectory Matching](/langaugeSpecification/trajectoryMatching.md) |     |  
+| [Spatial Join Of Collections](/languageSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
+| [Trajectory Matching](/languageSpecification/trajectoryMatching.md) |     |  
 
 Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf).  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
