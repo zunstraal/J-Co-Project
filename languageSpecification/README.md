@@ -30,4 +30,4 @@ A J-Co language script is a list of the following Jco commands.
 | [Trajectory Matching](/langaugeSpecification/trajectoryMatching.md) |     |  
 
 Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf).\
-Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokens.txt).
+Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
