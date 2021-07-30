@@ -29,4 +29,5 @@ A J-Co language script is a list of the following Jco commands.
 | [Spatial Join Of Collections](/langaugeSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
 | [Trajectory Matching](/langaugeSpecification/trajectoryMatching.md) |     |  
 
-Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf)
+Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf).
+Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokens.txt).
