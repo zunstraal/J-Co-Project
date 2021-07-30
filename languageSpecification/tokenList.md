@@ -96,36 +96,32 @@
 | SIMILARITY    | 'SIMILARITY' |
 | SOURCE        | 'SOURCE' |
 | SPATIAL       | 'SPATIAL' |
-| SUBTRACT      | 'SUBTRACT' |
-| TO            | 'TO' |
-| TO_BOOL				| 'TO_BOOL' |
-| TO_FLOAT			| 'TO_FLOAT' |
-| TO_INT				| 'TO_INT' |
-| TO_POLYLINE   | 'TO_POLYLINE' |
-| TO_STRING			| 'TO_STRING' |
-| TRAJECTORY    | 'TRAJECTORY' |
+| SUBTRACT              | 'SUBTRACT' |
+| TO                    | 'TO' |
+| TO_BOOL               | 'TO_BOOL' |
+| TO_FLOAT		| 'TO_FLOAT' |
+| TO_INT		| 'TO_INT' |
+| TO_POLYLINE           | 'TO_POLYLINE' |
+| TO_STRING		| 'TO_STRING' |
+| TRAJECTORY            | 'TRAJECTORY' |
 | TRANSLATE     | 'TRANSLATE' |
 | THRESHOLD     | 'THRESHOLD' |
-| TYPE					|	'TYPE' |
-| UNKNOWN				|	'UNKNOWN' |
+| TYPE         | TYPE' |
+| UNKNOWN	|	'UNKNOWN' |
 | UNPACK        | 'UNPACK' |
 | USE           | 'USE' |
 | USING         | 'USING' |
-| VERSUS        | ['DESC' \| 'ASC'] |
-| WEB						| 'WEB' |
+| VERSUS        | [ 'DESC' \| 'ASC' ] |
+| WEB	| 'WEB' |
 | WHERE         | 'WHERE' |
 | WITH          | 'WITH' |
 | WITHIN        | 'WITHIN' |
 | WITHOUT       | 'WITHOUT' |
 | WRT           | 'WRT' |
-|               | 			|
-| INT						| ['0' | DIGIT0 DIGIT*] |
-| FLOAT					| [DIGIT0 DIGIT* DOT DIGIT+ \| '0' DOT DIGIT+] | 
-| ID						| [LETTER [LETTER \| DIGIT \| '_' ]* |
-| FIELD_NAME		| [ DOT [LETTER \| DIGIT \| '_']+ ) \ 
-            \| DOT '"' (~('"') )* '"'
-            \| DOT '~geometry' 
-            \| DOT '~fuzzysets' 
-            \| '~geometry'] |
+|           |         |
+| INT	| [ '0' | DIGIT0 DIGIT* ] |
+| FLOAT     | [DIGIT0 DIGIT* DOT DIGIT+ \| '0' DOT DIGIT+] | 
+| ID	| LETTER [ LETTER \| DIGIT \| '\_' ]* |
+| FIELD_NAME		| [ DOT [LETTER \| DIGIT \| '_']+ ) \ \| DOT '"' (~('"') )* '"' \| DOT '~geometry'  \| DOT '~fuzzysets'  \| '~geometry'] |
 
 
