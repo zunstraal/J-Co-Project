@@ -3,6 +3,13 @@
 ## Description
 
 ## EBNF Notation
+	useDb ::= USE DB (ID | APEX_VALUE) (AS (ID | APEX_VALUE))? 
+        		( COMMA DB (ID | APEX_VALUE) (AS (ID | APEX_VALUE))? )*
+		    ON ( DEFAULT SERVER 
+		       | SERVER (ID | APEX_VALUE) ( (ID | APEX_VALUE))? )
+    		   SC
+  
+
 
 ## Syntax Diagram
 ![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
