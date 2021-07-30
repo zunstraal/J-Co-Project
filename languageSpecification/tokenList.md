@@ -152,4 +152,5 @@
 | WHITE_SPACES | WS | 
 | APEX_VALUE |  APEX (~(APEX) )* APEX |
 | QUOTED_VALUE |  QUOTE (~(QUOTE) )* QUOTE |
-| COMMENT  |   '//' ~('\n' \|'\r')* '\r'? '\n'  \|   '/*' ( . )* '\*/' |
+| COMMENT  |   '//' <whatever in Java style> |
+| COMMENT  |   '/*' <whatever in Java style> '\*/' |
