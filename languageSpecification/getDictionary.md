@@ -6,14 +6,14 @@ Retrieves a dictionary from a NoSQL repository in order to perfom the  the **Tra
     getDictionary ::= GET DICTIONARY ID AT ID AS ID SC 
 
 
+## Syntax Diagram
+![GetDictionary Command Syntax!](/languageSpecification/assets/rules/getDictionary.png "GET DICTIONARY Syntax Diagram") 
+
+
 ## Semantics
  * The 1st `ID` token represents a collection in a NoSQL repository;
  * The 2nd `ID` token represents a NoSQL repository (that should be previously declared by means of the [USE DB](/languageSpecification/useDb.md) command);
  * The 3rd `ID` token represents the _logical name_ by means the dictionary can be referenced subsequently. 
-
-
-## Syntax Diagram
-![GetDictionary Command Syntax!](/languageSpecification/assets/rules/getDictionary.png "GET DICTIONARY Syntax Diagram") 
 
 
 ## Examples
