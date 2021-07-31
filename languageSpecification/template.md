@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![UseDb instruction Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
+![XXX instruction Syntax!](/languageSpecification/assets/rules/XXX.png "XXX Syntax Diagram") 
 
 
 ## Semantics
