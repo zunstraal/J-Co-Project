@@ -1,4 +1,4 @@
-# Save As Command
+# Save As command
 Allows to save the *current collection*:
  1. in the Intermediate Results database;
  2. in a NoSQL repository previuosly declared by means of the [Use DB](/languageSpecification/useDb.md) command.
