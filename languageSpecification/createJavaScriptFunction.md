@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
+![Create JavaScript Function Command Syntax!](/languageSpecification/assets/rules/createJavaScriptFunction.png "Create JavaScript Function Syntax Diagram") 
 
 
 ## Semantics
