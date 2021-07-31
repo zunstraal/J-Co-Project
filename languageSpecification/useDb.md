@@ -1,5 +1,5 @@
 # Use Db Command
-Allows to specify which no-SQL repository(ies) to use to get or save collections of documents.  
+Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/languageSpecification/getCollection.md) or [SAVE AS](/languageSpecification/saveAs.md) commands.
 
 
 ## EBNF Notation
@@ -22,5 +22,10 @@ Allows to specify which no-SQL repository(ies) to use to get or save collections
 		ON SERVER jcods 'http://127.0.0.1:17017';
   
 
+## Issues
+An exception/error is raised in case the same DB is specified two or more times.
 
+
+## References
+For the *token list specification* see description [tokenList.md](/languageSpecification/tokenList.md) file.
 
