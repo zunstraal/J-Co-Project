@@ -1,4 +1,4 @@
-# Create JavaScript Function command
+# Create JavaScript Function instruction
 
 Bla bla bla  
 bla bla bla
@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![Create JavaScript Function Command Syntax!](/languageSpecification/assets/rules/createJavaScriptFunction.png "Create JavaScript Function Syntax Diagram") 
+![Create JavaScript Function instruction Syntax!](/languageSpecification/assets/rules/createJavaScriptFunction.png "Create JavaScript Function Syntax Diagram") 
 
 
 ## Semantics
