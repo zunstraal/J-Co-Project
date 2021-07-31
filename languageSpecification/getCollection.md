@@ -19,11 +19,11 @@ Substitutes the *current collection* with a new collection retrieved:
 ## Examples
  1. From the Intermediate Results databases:
 
-        GET COLLECTION  WeatherSensorPacked;
+        GET COLLECTION  WeatherSensors;
 
  2. From a repository previously declared by means of the USE DB Command:
 
-        GET COLLECTION  WeatherSensorPacked@DATA_2021;
+        GET COLLECTION  WeatherSensorMeasures@DATA_2021;
 
  3. From the Internet:
 
