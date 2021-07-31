@@ -1,4 +1,4 @@
-# XXX Command
+# XXX command
 
 Bla bla bla  
 bla bla bla
