@@ -1,4 +1,4 @@
-# Use Db Command
+# USE DB Command
 Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/languageSpecification/getCollection.md) or [SAVE AS](/languageSpecification/saveAs.md) commands.
 
 
