@@ -12,8 +12,8 @@ Retrieves a dictionary from a NoSQL repository in order to perfom the  the **Tra
 
 ## Semantics
  * The 1st `ID` token represents a collection in a NoSQL repository;
- * The 2nd `ID` token represents a NoSQL repository (that should be previously declared by means of the [USE DB](/languageSpecification/useDb.md) command);
- * The 3rd `ID` token represents the _logical name_ by means the dictionary can be subsequently referenced. 
+ * The 2nd `ID` token, after the `AT`(@) character, represents a NoSQL repository (that should be previously declared by means of the [USE DB](/languageSpecification/useDb.md) command);
+ * The 3rd `ID` token, after the `AS` keyword, represents the _logical name_ by means the dictionary can be subsequently referenced. 
 
 
 ## Examples
