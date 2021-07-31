@@ -1,5 +1,5 @@
 # Use DB command
-Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/languageSpecification/getCollection.md), [Save As](/languageSpecification/saveAs.md) or [Get Dictionary](/languageSpecification/getDictionary.md) commands.
+Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/languageSpecification/getCollection.md), [Save As](/languageSpecification/saveAs.md) or [Get Dictionary](/languageSpecification/getDictionary.md) instructions.
 
 
 ## EBNF Notation
@@ -11,11 +11,11 @@ Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/l
   
 
 ## Syntax Diagram
-![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "Use DB Syntax Diagram") 
+![UseDb instruction Syntax!](/languageSpecification/assets/rules/useDb.png "Use DB Syntax Diagram") 
 
 
 ## Semantics
-With a USE DB command can be declared more NoSQL Databases from the same server.  
+With a Use DB instruction can be declared more NoSQL Databases from the same server.  
 A database name can be and `ID` or `APEX_VALUE`, and it is possible to associate to it an alias after the `AS` keyword.  
 A server can be the one from `DEFAULT` (defined in the properties of the J-Co platform), or defined by a logical name followed, possibly, by the address to retrieve it.
 
