@@ -1,7 +1,7 @@
 # Get Collection Command
 Substitutes the *current collection* with a new collection retrieved:
- 1. from the Intermediate Results database
- 2. from a NoSQL repository previuosly declared by means of the [USE DB command](/languageSpecification/useDb.md)
+ 1. from the Intermediate Results database;
+ 2. from a NoSQL repository previuosly declared by means of the [USE DB](/languageSpecification/useDb.md) command;
  3. from the Internet.  
 
 
@@ -33,7 +33,7 @@ Substitutes the *current collection* with a new collection retrieved:
 
 ## Issues
 In case the collection cannot be retrieved an empty collection is returned.  
-An exception error is raised in case *.2* if the DB is not previously declared by means of the USE DB command
+An exception error is raised in case *.2* if the DB is not previously declared by means of the  [USE DB](/languageSpecification/useDb.md) command
 
 
 ## References
