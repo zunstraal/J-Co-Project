@@ -1,4 +1,4 @@
-# Create Fuzzy Operator Command
+# Create Fuzzy Operator instruction
 
 Bla bla bla  
 bla bla bla
@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![CreateFuzzyOperator Command Syntax!](/languageSpecification/assets/rules/createFuzzyOperator.png "Create Fuzzy Operator Syntax Diagram") 
+![CreateFuzzyOperator instruction Syntax!](/languageSpecification/assets/rules/createFuzzyOperator.png "Create Fuzzy Operator Syntax Diagram") 
 
 
 ## Semantics
