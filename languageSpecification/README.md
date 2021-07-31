@@ -11,7 +11,7 @@ A J-Co language script is a list of the following Jco commands.
 | **Basic commands** | |
 | [Use DB](/languageSpecification//useDb.md) | Allows to specify which no-SQL repository(ies) to use to get or save collections of documents   |
 | [Get Collection](/languageSpecification/getCollection.md) | Retrieves a collection of documents from a repository or from the Internet   | 
-| [Get Dictionary](/languageSpecification/getDictionary.md) | Retrieves a dictionary from a repository in order to perfom the **Translate** function (see [GenerateAction](/languageSpecification/generateAction.md)   | 							
+| [Get Dictionary](/languageSpecification/getDictionary.md) | Retrieves a dictionary from a repository in order to perfom the **Translate** function (see [GenerateAction](/languageSpecification/generateAction.md))   | 							
 | [Save As](/languageSpecification/saveAs.md) | Saves a collection of documents in a repository    |  
 | **Definition commands** | |
 |	[Create Fuzzy Operator](/languageSpecification/createFuzzyOperator.md) | Allows to define a **Fuzzy Operator**    |
