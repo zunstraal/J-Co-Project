@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
+![CreateFuzzyOperator Command Syntax!](/languageSpecification/assets/rules/createFuzzyOperator.png "Create Fuzzy Operator Syntax Diagram") 
 
 
 ## Semantics
