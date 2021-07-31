@@ -1,7 +1,7 @@
-# Get Collection command
+# Get Collection instruction
 Substitutes the *current collection* with a new collection retrieved:
  1. from the Intermediate Results database;
- 2. from a NoSQL repository previuosly declared by means of the [Use DB](/languageSpecification/useDb.md) command;
+ 2. from a NoSQL repository previuosly declared by means of the [Use DB](/languageSpecification/useDb.md) instruction;
  3. from the Internet.  
 
 
@@ -13,7 +13,7 @@ Substitutes the *current collection* with a new collection retrieved:
 
 
 ## Syntax Diagram
-![GetCollection Command Syntax!](/languageSpecification/assets/rules/getCollection.png "Get Collection Syntax Diagram") 
+![GetCollection instruction Syntax!](/languageSpecification/assets/rules/getCollection.png "Get Collection Syntax Diagram") 
 
 
 ## Semantics
@@ -27,7 +27,7 @@ Substitutes the *current collection* with a new collection retrieved:
 
         GET COLLECTION  WeatherSensors;
 
- 2. From a repository previously declared by means of the Use DB command:
+ 2. From a repository previously declared by means of the Use DB instruction:
 
         GET COLLECTION  WeatherSensorMeasures@DATA_2021;
 
@@ -39,7 +39,7 @@ Substitutes the *current collection* with a new collection retrieved:
 
 ## Issues
 In case the collection cannot be retrieved an empty collection is returned.  
-An exception error is raised in case *.2* if the DB is not previously declared by means of the  [Use DB](/languageSpecification/useDb.md) command.
+An exception error is raised in case *.2* if the DB is not previously declared by means of the  [Use DB](/languageSpecification/useDb.md) instruction.
 
 
 ## References
