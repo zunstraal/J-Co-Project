@@ -1,21 +1,22 @@
-grammar GecoNonDecorato;
+/* JCO Language EBNF Specification */
 
+// start symbol
 start 
-  : ( useDb                     // 12
-    | getCollection             // 1 
-    | getDictionary		// 16
-    | saveAs                    // 3 
-    | filter                    // 6 
-    | group                     // 7 
-    | expand                    // 8 
-    | joinOfCollections         // 5 
-    | mergeCollections          // 9 
-    | intersectCollections      // 10
-    | subtractCollections       // 11
-    | createFuzzyOperator	// 14
-    | createJavaScriptFunction	// 15
-    | spatialJoin               // 4 	
-    | trajectoryMatching        // 13
+  : ( useDb                     
+    | getCollection              
+    | getDictionary		
+    | saveAs                     
+    | filter                     
+    | group                      
+    | expand                     
+    | joinOfCollections          
+    | mergeCollections           
+    | intersectCollections      
+    | subtractCollections       
+    | createFuzzyOperator	
+    | createJavaScriptFunction	
+    | spatialJoin                	
+    | trajectoryMatching        
     )* EOF
   ;
 
@@ -50,16 +51,16 @@ outputFieldSpec
   :
     fieldRef					
     (	COLON ( value																															
-      	    | fieldRef																														
-      	    | objectStructure 
-				    |	COUNT 					LP fieldRef RP																			
-				    |	TO_STRING 			LP fieldRef RP																			
-				    |	TO_INT 					LP fieldRef RP																			
-				    |	TO_FLOAT 				LP fieldRef RP																			
-				    |	TO_BOOL 				LP fieldRef RP																			
-				    |	SERIALIZE 			LP fieldRef RP																			
-				    |	MEMBERSHIP_OF 	LP ID RP																						
-				    |	TRANSLATE 			LP fieldRef COMMA ID (COMMA BOOLEAN)?  RP		
+		| fieldRef																														
+		| objectStructure 
+		|	COUNT 		LP fieldRef RP																			
+		|	TO_STRING 	LP fieldRef RP																			
+		|	TO_INT 		LP fieldRef RP																			
+		|	TO_FLOAT 	LP fieldRef RP																			
+		|	TO_BOOL 	LP fieldRef RP																			
+		|	SERIALIZE 	LP fieldRef RP																			
+		|	MEMBERSHIP_OF 	LP ID RP																						
+		|	TRANSLATE 	LP fieldRef COMMA ID (COMMA BOOLEAN)?  RP		
           	)
      )?      
   ;
@@ -68,9 +69,9 @@ outputFieldSpec
 generateAction 
   :
     GENERATE									
-      ( objectStructure ( geometricOption	)?
-	    | geometricOption						
-	    )
+	( objectStructure ( geometricOption	)?
+	| geometricOption						
+	)
   ;
 
 
@@ -116,10 +117,10 @@ whereCase
   : 
     WHERE 
      	orCondition 				
-     	( generateAction 		)?
-			( fuzzyCheck 		 		)*
-			(	alphaCut 					)*
-			( keepDropFuzzySets	)?
+     	( generateAction )?
+	( fuzzyCheck )*
+	( alphaCut )*
+	( keepDropFuzzySets )?
   ;
 
 
@@ -140,16 +141,15 @@ notCondition
 
 predicate 
   :
-     	expression      																		
-     	  ( comparator expression )?
-    | withPredicate      																
-    | withoutPredicate  														
-		| ( WITHIN | KNOWN | UNKNOWN ) FUZZY SETS ID ( COMMA ID )*
-		| ifFails										
-		|	OVERLAP LP RP												
-		| INSIDE LP (LEFT | RIGHT) RP
-		| HOWMEET LP (LEFT | RIGHT) RP									
-		;
+	  expression ( comparator expression )?
+	| withPredicate      																
+	| withoutPredicate  														
+	| ( WITHIN | KNOWN | UNKNOWN ) FUZZY SETS ID ( COMMA ID )*
+	| ifFails										
+	| OVERLAP LP RP												
+	| INSIDE LP (LEFT | RIGHT) RP
+	| HOWMEET LP (LEFT | RIGHT) RP									
+  ;
 
 
 
