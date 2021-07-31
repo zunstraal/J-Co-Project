@@ -17,7 +17,7 @@ Allows to save the *current collection*:
 
         SAVE AS WeatherSensors;
 
- 2. Save in a repository previously declared by means of the USE DB Command:
+ 2. Save in a repository previously declared by means of the Use DB instruction:
 
         SAVE AS WeatherSensorMeasures@DATA_2021;
 
