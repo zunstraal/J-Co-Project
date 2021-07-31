@@ -1,9 +1,15 @@
 # GET DICTIONARY Command
-
+Retrieves a dictionary from a repository in order to perfom the  the **Translate** function (see [GenerateAction](/languageSpecification/generateAction.md)).
 
 
 ## EBNF Notation
     getDictionary ::= GET DICTIONARY ID AT ID AS ID SC 
+
+
+## Semantics
+ * The 1st `ID` token reprensents a collection in a NoSQL repository;
+ * The 2nd `ID` token reprensents a NoSQL repository (that should be previously declared by means of the [USE DB](/languageSpecification/useDb.md) command);
+ * The 3rd `ID` token reprensents the _logical name_ by means the dictionary can be referenced subsequently. 
 
 
 ## Syntax Diagram
