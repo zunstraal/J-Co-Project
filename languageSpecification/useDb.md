@@ -14,6 +14,12 @@ Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/l
 ![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
 
 
+## Semantics
+With a USE DB command can be declared more NoSQL Databases from the same server.  
+A database name can be and `ID` or `APEX_VALUE`, and it is possible to associate to it an alias after the `AS` keyword.  
+A server can be the one from `DEFAULT` (defined in the properties of the J-Co platform), or defined by a logical name followed, possibly, by the address to retrieve it.
+
+
 ## Examples
 	USE DB JCoTestDb, DB 'JCoDataBase2' AS myDb  
 		ON SERVER MongoDB 'http://127.0.0.1:27017';
