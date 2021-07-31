@@ -14,15 +14,15 @@ Retrieves a collection of documents from the Intermediate Results database, a No
 
 
 ## Examples
-1.From the Intermediate Results databases:
+1. From the Intermediate Results databases:
 
         GET COLLECTION  WeatherSensorPacked;
 
-2.From a repository previously declared by means of the USE DB Command:
+2. From a repository previously declared by means of the USE DB Command:
 
         GET COLLECTION  WeatherSensorPacked@DATA_2021;
 
-3.From the Internet:
+3. From the Internet:
 
         GET COLLECTION FROM WEB 
             "https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=1000000&$where=storico<>'S'";
