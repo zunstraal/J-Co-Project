@@ -1,7 +1,7 @@
 # Get Collection Command
-Substitutes the *current collection* with a new collection retrieved from
- 1. the Intermediate Results database
- 2. a NoSQL repository previuosly declared by means of the [USE DB command](/languageSpecification/useDb.md)
+Substitutes the *current collection* with a new collection retrieved:
+ 1. from the Intermediate Results database
+ 2. from a NoSQL repository previuosly declared by means of the [USE DB command](/languageSpecification/useDb.md)
  3. from the Internet.  
 
 
@@ -17,15 +17,15 @@ Substitutes the *current collection* with a new collection retrieved from
 
 
 ## Examples
-1. From the Intermediate Results databases:
+ 1. From the Intermediate Results databases:
 
         GET COLLECTION  WeatherSensorPacked;
 
-2. From a repository previously declared by means of the USE DB Command:
+ 2. From a repository previously declared by means of the USE DB Command:
 
         GET COLLECTION  WeatherSensorPacked@DATA_2021;
 
-3. From the Internet:
+ 3. From the Internet:
 
         GET COLLECTION FROM WEB 
             "https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=1000000&$where=storico<>'S'";
@@ -33,7 +33,7 @@ Substitutes the *current collection* with a new collection retrieved from
 
 ## Issues
 In case the collection cannot be retrieved an empty collection is returned.  
-An exception error is raised in case .2 if the DB is not previously declared by means of the USE DB command
+An exception error is raised in case *.2* if the DB is not previously declared by means of the USE DB command
 
 
 ## References
