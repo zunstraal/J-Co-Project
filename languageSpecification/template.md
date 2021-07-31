@@ -14,7 +14,7 @@ bla bla bla
 ## Examples
 
 
-## Miscellaneus
+## Issues
 
 
 ## References
