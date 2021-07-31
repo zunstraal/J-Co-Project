@@ -1,4 +1,4 @@
-# Get Collection Command
+# GET COLLETION Command
 Substitutes the *current collection* with a new collection retrieved:
  1. from the Intermediate Results database;
  2. from a NoSQL repository previuosly declared by means of the [USE DB](/languageSpecification/useDb.md) command;
