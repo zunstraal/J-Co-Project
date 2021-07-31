@@ -1,5 +1,5 @@
-# USE DB Command
-Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/languageSpecification/getCollection.md) or [SAVE AS](/languageSpecification/saveAs.md) commands.
+# Use DB command
+Allows to specify which no-SQL repository(ies) to use by the [Get Collection](/languageSpecification/getCollection.md), [Save As](/languageSpecification/saveAs.md) or [Get Dictionary](/languageSpecification/getDictionary.md) commands.
 
 
 ## EBNF Notation
@@ -11,7 +11,7 @@ Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/l
   
 
 ## Syntax Diagram
-![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
+![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "Use DB Syntax Diagram") 
 
 
 ## Semantics
