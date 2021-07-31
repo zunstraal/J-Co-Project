@@ -1,5 +1,8 @@
 # Get Collection Command
-Retrieves a collection of documents from the Intermediate Results database, a NoSQL repository previuosly declared by means of the [USE DB command](/languageSpecification/useDb.md), or from the Internet.  
+Substitutes the *current collection* with a new collection retrieved from
+ 1. the Intermediate Results database
+ 2. a NoSQL repository previuosly declared by means of the [USE DB command](/languageSpecification/useDb.md)
+ 3. from the Internet.  
 
 
 
