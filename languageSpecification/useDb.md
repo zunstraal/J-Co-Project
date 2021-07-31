@@ -26,7 +26,7 @@ Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/l
   
 
 ## Issues
-An exception/error is raised in case the same DB is specified two or more times.
+An exception error is raised in case the same DB is specified two or more times.
 
 
 ## References
