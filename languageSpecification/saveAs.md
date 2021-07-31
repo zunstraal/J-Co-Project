@@ -22,6 +22,11 @@ Allows to save the *current collection*:
         SAVE AS WeatherSensorMeasures@DATA_2021;
 
 
+## Semantics
+ + The 1st `ID` token represents the name under which the collection is saved.
+ + If the 2nd `ID` token is present, it represents the repository database where to save the collection. Otherwise the collection is saved in the _Intermediate Results_ database.
+
+
 ## Issues
 An exception error is raised in case *.2* if the DB is not previously declared by means of the  [USE DB](/languageSpecification/useDb.md) command.
 
