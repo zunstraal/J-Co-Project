@@ -1,4 +1,4 @@
-# XXX command
+# XXX instruction
 
 Bla bla bla  
 bla bla bla
@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![UseDb Command Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
+![UseDb instruction Syntax!](/languageSpecification/assets/rules/useDb.png "USE DB Syntax Diagram") 
 
 
 ## Semantics
