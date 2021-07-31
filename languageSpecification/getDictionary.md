@@ -1,5 +1,5 @@
 # Get Dictionary command
-Retrieves a dictionary from a NoSQL repository in order to perfom the  the **Translate** function (see [GenerateAction](/languageSpecification/generateAction.md)).
+Retrieves a dictionary from a NoSQL repository in order to perfom the  the **TRANSLATE** function (see [GenerateAction](/languageSpecification/generateAction.md)).
 
 
 ## EBNF Notation
