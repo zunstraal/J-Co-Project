@@ -1,5 +1,5 @@
 # Get Collection Command
-Retrieves a collection of documents from a repository or from the Internet.  
+Retrieves a collection of documents from the Intermediate Results database, a NoSQL repository previuosly declared by means of the [USE DB command](/languageSpecification/useDb.md), or from the Internet.  
 
 
 
@@ -14,21 +14,23 @@ Retrieves a collection of documents from a repository or from the Internet.
 
 
 ## Examples
-From the Intermediate Results databases:
+1.From the Intermediate Results databases:
 
         GET COLLECTION  WeatherSensorPacked;
 
-From a repository previously declared by means of the USE DB Command:
+2.From a repository previously declared by means of the USE DB Command:
 
         GET COLLECTION  WeatherSensorPacked@DATA_2021;
 
-From the Internet:
+3.From the Internet:
 
         GET COLLECTION FROM WEB 
             "https://www.dati.lombardia.it/resource/nf78-nj6b.json?$limit=1000000&$where=storico<>'S'";
 
 
-## Miscellaneus
+## Issues
+In case the collection cannot be retrieved an empty collection is returned.  
+An exception error is raised in case .2 if the DB is not previously declared by means of the USE DB command
 
 
 ## References
