@@ -18,4 +18,4 @@ bla bla bla
 
 
 ## References
-For the token list specification see description [tokenList.md](/languageSpecification/tokenList.md) file.
+For the *token list specification* see description [tokenList.md](/languageSpecification/tokenList.md) file.
