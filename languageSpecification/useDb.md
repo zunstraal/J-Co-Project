@@ -15,11 +15,14 @@ Allows to specify which no-SQL repository(ies) to use by the [GET COLLECTION](/l
 
 
 ## Examples
-	USE DB JCoTest, DB 'JCoDataBase2' AS myDb  
+	USE DB JCoTestDb, DB 'JCoDataBase2' AS myDb  
 		ON SERVER MongoDB 'http://127.0.0.1:27017';
 
 	USE DB Test  
 		ON SERVER jcods 'http://127.0.0.1:17017';
+
+	USE DB sourceDb, DB targetDb  
+		ON DEFAULT SERVER;
   
 
 ## Issues
