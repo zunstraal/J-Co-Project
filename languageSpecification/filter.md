@@ -8,7 +8,7 @@ bla bla bla
 
 
 ## Syntax Diagram
-![Filter instruction Syntax!](/languageSpecification/assets/rules/Filter.png "Filter Syntax Diagram") 
+![Filter instruction Syntax!](/languageSpecification/assets/rules/filter.png "Filter Syntax Diagram") 
 
 
 ## Semantics
