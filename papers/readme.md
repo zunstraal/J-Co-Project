@@ -7,4 +7,4 @@ This folder contains papers issued around J-Co Project
  
  
  
- [zsdasda]("/papers/J-CO Towards a Flexible Query Language for.pdf")
+ [zsdasda]("/papers/J-COTowardsaFlexibleQueryLanguagefor.pdf")
