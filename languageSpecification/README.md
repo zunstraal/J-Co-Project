@@ -27,7 +27,6 @@ A J-Co language script is a list of the following Jco instructions.
 | [Subtract Collections](/languageSpecification/subtractCollections.md) | Creates a new collection as the set subtraction of two collections    | 
 | **Spatial instructions** ||
 | [Spatial Join Of Collections](/languageSpecification/spatialJoin.md) | Joins two collections of documents according to their spatial fields in order to create a new one    |
-| [Trajectory Matching](/languageSpecification/trajectoryMatching.md) |     |  
 
 Here is the complete [EBNF specification of the Jco Language](/languageSpecification/GecoLanguage.bnf).  
 Here is the description of all [_reserved words_, _symbols_ and _punctuation_](/languageSpecification/tokenList.md).
