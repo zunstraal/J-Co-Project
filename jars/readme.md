@@ -16,4 +16,4 @@ To run the jars be sure to have a least a recent Java instance in your system pa
 This subfolder contains the jars related to the J-Co parser.
 In the documentation folder there's an example java class to instantiate and launch the parser in both of the following versions:
  * `gecoParser2.6.05.jar`: the latest version of the parser for the J-Co language _without_ the fuzzy extension; 
- * `gecoParser3.1.08.jar`: the latest version of the parser for the J-Co language _with_ the fuzzy extension;
+ * `gecoParser3.4.00.jar`: the latest version of the parser for the J-Co language _with_ the fuzzy extension;
