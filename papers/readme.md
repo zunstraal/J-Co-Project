@@ -1,5 +1,5 @@
 # Papers
-This folder contains papers issued around J-Co Project
+This folder contains papers published around the J-Co Project
 | #  | Year | Authors | Title | Scholar |
 | -- | ---- | ------- | ----- | ------- |
 | 7 | 2021 | Fosci, Psaila | [`Towards Flexible Retrieval, Integration and Analysis of JSON Data Sets through Fuzzy Sets: A Case Study`](/papers/paper3.pdf) | [link](https://scholar.google.com/scholar?hl=it&as_sdt=0%2C5&q=Towards+Flexible+Retrieval%2C+Integration+and+Analysis+of+JSON+Data+Sets+through+Fuzzy+Sets%3A+A+Case+Study&btnG=) |
