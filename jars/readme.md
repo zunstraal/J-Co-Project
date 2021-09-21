@@ -1,6 +1,9 @@
+-# NOTICE:
+-if you want to retrieve the excutable code, you have to get in touch with Paolo Fosci (paolo.fosci@unibg.it) or Prof. Giuseppe Psaila (giuseppe.psaila@unibg.it).
+-For a technological limit of our github account, we cannot upload files bigger than 25Mb
+
 # jars
 This folder contains all the executable jars to run all _J-Co_ modules.
-To run the jars be sure to have a least a recent Java instance in your system path _[da scrivere meglio]_
 
 ## j-co executable jars
  * `jcoql-ds-client-1.0.0-RELEASE.jar`: [cosa fanno e nel caso con quale altra jar va associata ] ;
