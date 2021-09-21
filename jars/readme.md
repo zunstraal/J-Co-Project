@@ -1,13 +1,9 @@
-# NOTICE:
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+# NOTICE:
+- if you want to retrieve the excutable code, you have to get in touch with Paolo Fosci (paolo.fosci@unibg.it) or Prof. Giuseppe Psaila (giuseppe.psaila@unibg.it).
+- For a technological limit of our github account, we cannot upload files bigger than 25Mb
 ```
--if you want to retrieve the excutable code, you have to get in touch with Paolo Fosci (paolo.fosci@unibg.it) or Prof. Giuseppe Psaila (giuseppe.psaila@unibg.it).
--For a technological limit of our github account, we cannot upload files bigger than 25Mb
+
 
 # jars
 This folder contains all the executable jars to run all _J-Co_ modules.
