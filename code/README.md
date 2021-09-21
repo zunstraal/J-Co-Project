@@ -8,11 +8,11 @@ For every details get in touch with the authors.
 * Download the zip file
 * Unpack the file
 * Open as command shell in the folder where you unpacked the zip file
-* run the following gradle scripts to import the code into an Eclipse IDE
-  * >gradlew cleanEclipse
-  * >gradlew eclipse
-* run the following gradle script to generate jar excutable files
-  * >gradlew jar   
+* run the following gradle scripts from command line to import the code into an Eclipse IDE
+  * _gradlew cleanEclipse_
+  * _gradlew eclipse_
+* run the following gradle script from command lineto generate jar excutable files
+  * _gradlew jar_   
 
 ps.
 Help us to improve documentation with suggestions
