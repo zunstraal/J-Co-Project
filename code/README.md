@@ -3,6 +3,8 @@
 The documentation of this folder has to be improved.
 For every details get in touch with the authors.
 
-The code can be compiled with the Gradle scripts provided.
+* Download the zip file
+* Unpack the file
+
 
 Last update : 21st Semptember 2021
