@@ -1,5 +1,5 @@
-```diff
 # NOTICE:
+```diff
 - if you want to retrieve the excutable code, you have to get in touch with Paolo Fosci (paolo.fosci@unibg.it) or Prof. Giuseppe Psaila (giuseppe.psaila@unibg.it).
 - For a technological limit of our github account, we cannot upload files bigger than 25Mb
 ```
