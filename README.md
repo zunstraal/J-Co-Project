@@ -4,7 +4,7 @@ The core of the framework is _J-CO-QL_, a novel query language specifically desi
 
 ## Latest New
   * _15.09.2021_ : Last software update available is from 21 September 2020 after FQAS conference held in Bratislva.
-  * _31.05.2021_ : *Software update* available is from 02 October 2020. A new release will be soon distribuited after some major changement.
+  * _31.05.2021_ : *Software update * available is from 02 October 2020. A new release will be soon distribuited after some major changement.
 
 For any information contact the authors at:
   * Paolo Fosci : paolo.fosci@unibg.it
