@@ -3,7 +3,7 @@ The _J-CO-Framework_ is the result of a research work conducted at University of
 The core of the framework is _J-CO-QL_, a novel query language specifically designed to query heterogeneous JSON data sets, by natively supporting geo-spatial aggregations of geo-tagged documents.
 
 ## Latest New
-  * _15.09.2021_ : _Last software _update_ available is from 21 September 2020 after FQAS conference held in Bratislva.
+  * _15.09.2021_ : _Last software _update available_ is_ from 21 September 2020 after FQAS conference held in Bratislva.
   * _31.05.2021_ : Software update available is from 02 October 2020. A new release will be soon distribuited after some major changement.
 
 For any information contact the authors at:
