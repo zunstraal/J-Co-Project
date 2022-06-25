@@ -4,8 +4,8 @@ The core of the framework is _J-CO-QL_, a novel query language specifically desi
 
 ## Latest New
   * _25.06.2022_ : The repository has been restructured. The _java code_ and the _executable code_ have been relocated
-  **  _code_ : https://github.com/JcoProjectTeam/JcoFrameworkCode;
-  ** _executable code_ : https://github.com/JcoProjectTeam/JcoFrameworkExecutable;
+  * *  _code_ : https://github.com/JcoProjectTeam/JcoFrameworkCode;
+  * * _executable code_ : https://github.com/JcoProjectTeam/JcoFrameworkExecutable;
 
 For any information contact the authors at:
   * Paolo Fosci : paolo.fosci@unibg.it
